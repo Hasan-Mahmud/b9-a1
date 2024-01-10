@@ -130,11 +130,63 @@ body {
     text-decoration: none;
     margin-left: 30px;
     color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase
+}
+
+/* address */
+
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 482px;
+    background-color: bisque;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+
+.address-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.mailing-address {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 48px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+
+}
+
+.address-head {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
 }

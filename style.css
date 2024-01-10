@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Merriweather', serif;
-    margin: 0px 100px;
+    /* margin: 0px 100px; */
     /* padding: 0px 100px; */
 }
 
@@ -15,9 +15,8 @@ body {
 /* header */
 
 .header {
-
     min-height: 600px;
-    margin: 50px 0px;
+    margin: 50px 100px;
     border-radius: 16px;
     background: url('images/banner-image.png');
     background-repeat: no-repeat;
@@ -44,6 +43,10 @@ body {
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+}
+
+.main{
+    margin: 0px 100px;
 }
 
 /* discount */
@@ -189,4 +192,89 @@ body {
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
+}
+
+/* new offer */
+
+.offer {
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-content: space-around;
+    height: 463px;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+.offer-img {
+    align-items: center;
+    justify-content: center;
+    padding: 49px;
+    border-radius: 364.844px;
+    border: 15px solid #F00;
+}
+
+.offer-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.coming-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+
+.offer-des {
+    margin-top: 22px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.about-new-year {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-year {
+    margin-top: 100px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.about-new-year-des {
+    margin-top: 16px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.image-new-year {
+    margin-top: 43px;
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+}
+
+/* footer */
+.footer {
+    height: 609px;
+    flex-shrink: 0;
+    background: #070211;
 }

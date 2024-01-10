@@ -1,16 +1,21 @@
 /* common shared */
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     font-family: 'Merriweather', serif;
-    /* margin: 0px 100px; */
-    padding: 0px 100px;
+    margin: 0px 100px;
+    /* padding: 0px 100px; */
 }
 
 
 /* header */
 
 .header {
-    
+
     min-height: 600px;
     margin: 50px 0px;
     border-radius: 16px;
@@ -22,8 +27,8 @@ body {
 
 }
 
-.header-content{
-    padding: 100px;
+.header-content {
+    padding: 130px;
 }
 
 .header-sub-title {
@@ -40,4 +45,40 @@ body {
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+}
+
+/* discount */
+.discount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discount-percent {
+    margin: 40px 0px 0px 0px;
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.discount-slogan {
+    margin: 48px 0px 16px 0px;
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount-product {
+    margin-bottom: 48px;
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.discount-img {
+    fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-bottom: 120px;
 }
